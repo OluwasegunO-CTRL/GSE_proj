@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Student Form</title>
+</head>
+<body>
+
+    <h1>STUDENT FORM</h1>
+    <form action="" method="post">
+        <fieldset>
+        <legend class="bio">Biodata:</legend>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="dbirth">Date of Birth:</label><br>
+        <input type="date" name="dbirth" id="dbirth" required><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="Phone">Phone Number:</label><br>
+        <input type="tel" name="Phone" id="Phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="0814-557-4356"><br>
+    </fieldset>
+        <fieldset>
+        <legend> Student Information:</legend>
+        <label for="matric">Matric Number:</label><br>
+        <input type="text" name="matric" id="matric" required><br>
+        <label for="dept">Department:</label><br>
+        <input type="text" name="dept" id="dept" required><br>
+        <label for="facul">Faculty:</label><br>
+        <input type="text" name="facul" id="facul" required><br>
+        <label for="course">Course:</label><br>
+        <input type="text" name="course" id="course" required><br>
+        </fieldset>
+
+    <fieldset>
+        <legend>Interests:</legend>
+        <input type="radio" name="area_int" id="SE" value="Software_enginering">
+        <label for="SE">Software Engineering</label><br>
+        <input type="radio" name="area_int" id="WD" value="Web_Development">
+        <label for="WD">Web Web Development</label><br>
+        <input type="radio" name="area_int" id="CS" value="Cyber_Security">
+        <label for="CS">Cyber Security</label><br>
+        <input type="radio" name="area_int" id="BT" value="Blockchain">
+        <label for="BT">Blockchain Technology</label><br>
+        <input type="radio" name="area_int" id="DS" value="Data_Science">
+        <label for="DS">Data Science</label><br>
+</fieldset><br>
+
+<input type="submit" value="submit" onclick="alert('Well Done')">
+    </form>
+</body>
+
+</html>
