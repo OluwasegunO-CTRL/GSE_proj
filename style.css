@@ -40,7 +40,7 @@ body {
   }
   
   section {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   
   h1, h2 {
@@ -50,7 +50,7 @@ body {
   form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
   
   label {
@@ -64,7 +64,7 @@ body {
   textarea {
     border: 1px solid #ccc;
     padding: 3px;
-    width: 100%;
+    width: 80%;
   }
   
   input[type="submit"] {
@@ -72,7 +72,11 @@ body {
     border: none;
     color: #fff;
     cursor: pointer;
-    padding: 10px 10px;
+    padding: 10px 50px;
+    width: 30%;
+    margin-left: 40%;
+    text-align: center;
+    
   }
   
   input[type="submit"]:hover {
@@ -84,6 +88,10 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+  }
+
+  .hello{
+    background-color: #333;
   }
   
   /* Styles for larger screens */
@@ -116,7 +124,7 @@ body {
     }
     
     section {
-      margin-bottom: 0;
+      margin-bottom: 20;
     }
   }
   
